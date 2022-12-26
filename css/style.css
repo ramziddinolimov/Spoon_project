@@ -57,8 +57,42 @@ nav .container {
     transition: .6s;
 }
 
-.nav-item:last-child .na-link:hover {
+.nav-item:last-child .na-link:hover, .main-link:hover {
     background-color: #5AB963;
     border: 3px solid #5AB963 !important;
     border-radius: 3px;
 }
+
+main h2 {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+main p {
+    color: #fff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+.main-link {
+    color: #fff;
+    font-size: 20px;
+    border: 3px solid #fff !important;
+    padding: 15px 20px;
+    transition: .6s;
+}
+
+.main-box {
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 200px;
+}
+
+
+
