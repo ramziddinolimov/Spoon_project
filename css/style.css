@@ -22,3 +22,43 @@ body {
     width: 1140px;
     margin: 0 auto;
 }
+
+header {
+    background-image: url("../img/IMAGE\ \(7\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+nav .container {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    width: 200px;
+}
+
+.nav-list {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list .na-link {
+    color: #ffff;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.nav-item:last-child .na-link{
+    border: 3px solid #fff !important;
+    padding: 15px 20px;
+    transition: .6s;
+}
+
+.nav-item:last-child .na-link:hover {
+    background-color: #5AB963;
+    border: 3px solid #5AB963 !important;
+    border-radius: 3px;
+}
