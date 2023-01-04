@@ -94,5 +94,9 @@ main p {
     padding-bottom: 200px;
 }
 
+main {
+    display: flex;
+}
+
 
 
